@@ -84,6 +84,11 @@ h1 {
     padding: 20px 20px 20px 20px;
 }
 
+#htmlSection img{
+  padding: auto; 
+  border: solid 2px black;
+}
+
 /*.
 .collapsible {
     background-color: #eee;
