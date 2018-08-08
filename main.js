@@ -1,4 +1,4 @@
 
-function goToPage(url){
-    window.location.href = url;
-}
+// function goToPage(url){
+//     window.location.href = url;
+// }
