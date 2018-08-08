@@ -62,5 +62,15 @@ h1 {
     color: white;
     border: 2px solid orange;
     border-color: orange; 
+<<<<<<< HEAD
 }
 
+#htmlSection{
+    background-color:rgba(201, 228, 252, 0.6);
+}
+
+#cleanCodeSection{
+    background-color:rgba(201, 228, 252, 0.6);
+}
+=======
+>>>>>>> master
