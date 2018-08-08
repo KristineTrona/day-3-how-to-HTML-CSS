@@ -22,7 +22,7 @@
 
         <h1>What is  HTMl and CSS and Clean Code all about</h1>
         <button id="htmlButton" onclick="showSection('htmlSection')">HTML</button>
-        <button id="cssButton" onclick="showSection()">CSS</button>
+        <button id="cssButton" onclick="showSection('cssSection')">CSS</button>
         <button id="cleancodeButton" onclick="showSection('cleanCodeSection')">CLEAN CODE</button>
         
     </div>
@@ -48,13 +48,12 @@
            </p>
            <img src = "html-tag.gif" alt = "picture_of_html_element ">
         </div><br />
+    </div>
 
 
 <!--CSS section-->
        
-<section class="section-css">
-        <div style= "height:350px";>
-        <a name= "css";></a>
+        <div id=cssSection style= "display: none;";>
               <h2>Cascading Style Sheets</h2>
                 <p class ="justifier">
                     <h2>1.What is CSS and it is used for ?.</h2></br>
@@ -70,13 +69,33 @@
                 <h2>3.CSS/ Cascading ?</h2></br>
                 <p>Cascading" means that styles can fall (or cascade) from one style sheet to another, enabling multiple style sheets to be used on one HTML document.
                 </p>
-                
+
+                <h3>6. What are Box Model, margins, borders and paddings?</h3>
+<p>
+    The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. <br>
+    <img src='boxmodel.jpg' alt='no image found' width="26%">
+    <br>
+    Padding - Clears an area around the content of the box. The padding is transparent <br>
+    Border - A border that goes around the padding and content of the box <br>
+    Margin - Clears an area outside the border. The margin is transparent <br>
+</p>
+<h3>7. What is a FlexBox?</h3>
+<p>
+The Flexible Box Module, usually referred to as flexbox, was designed as a one-dimensional layout model, and as a method that  <br>
+could offer space distribution between items in an interface and powerful alignment capabilities.
+Aims at providing a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic (thus the word "flex").
+The main idea behind the flex layout is to give the container the ability to alter its items' width/height (and order) to best fill the available space. <br>
+A flex container expands items to fill available free space, or shrinks them to prevent overflow. <br>
+Most importantly, the flexbox layout is direction-agnostic as opposed to the regular layouts. <br>
+While those work well for pages, they lack flexibility (no pun intended) to support large or complex applications  
+</p>
     </div>
-    </section>
       
  <!--CSS section-->
 
-    </div>
+    
+
+
 
 <!--Clean Code section-->
 <div id=cleanCodeSection style="display: none;">
