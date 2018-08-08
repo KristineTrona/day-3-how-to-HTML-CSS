@@ -7,6 +7,7 @@ h1 {
    text-align: center;
    font-style: normal;
    color:white;
+/* CleanCodeSection */
 }
 
 #htmlButton {
@@ -54,4 +55,5 @@ h1 {
     border: 2px solid orange;
     border-color: orange; 
     border-radius: 5px;
+
 }
