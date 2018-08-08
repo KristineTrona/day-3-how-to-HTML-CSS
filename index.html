@@ -13,15 +13,25 @@
  <!-- main content -->
     <div id="homepage">
         <!-- services area -->
+<!--
         <h1 id="homeHeader">Explaining HTML / CSS / Clean Code</h1>
         <button id="htmlButton">HTML</button>
         <button><a href="#css" id="cssButton">CSS</button>
         <button id="cleancodeButton">CLEAN CODE</button>
+-->
+
+        <h1>What is  HTMl and CSS and Clean Code all about</h1>
+        <button id="htmlButton" onclick="showSection('htmlSection')">HTML</button>
+        <button id="cssButton" onclick="showSection()">CSS</button>
+        <button id="cleancodeButton" onclick="showSection('cleanCodeSection')">CLEAN CODE</button>
         
     </div>
      <!-- / services area -->
 <!--HTML section--> 
+
 </br>
+
+<div id=htmlSection style="display: none;">
   <h1> HTML </h1>
         <div class = "nav_HTML_section_1">
             <a href = "index.HTML_uses">What to use HTML for </a>
@@ -40,6 +50,7 @@
         <div class = "HTML_tages_attributes">
             2. 
         </div><br />
+
 
 <!--CSS section-->
        
@@ -66,7 +77,11 @@
     </section>
       
  <!--CSS section-->
+
+    </div>
+
 <!--Clean Code section-->
+<div id=cleanCodeSection style="display: none;">
         <h2>Clean Code</h2>
         <h3>1. What is refactoring?</h3>
         <p>
@@ -94,11 +109,14 @@
         The 'Separation of Concerns' is about separating your code into sections. Each of your sections would deal with a different 'concern'. <br /><br />
         All of these ideas are principles that are important to keep in mind when writing your code. In the end it is all about not wasting your own, and others, time.
         </p>
-             
-              
+
         <script src = "main.js"></script>  
+
+    </div>
+    <button id="returnButton" onclick="showHomepage('homepage')" style="display: none;">Return to Homepage</button>
+  <script src = "main.js"></script>  
 </body>
 </html>
-=======
+
    
    
