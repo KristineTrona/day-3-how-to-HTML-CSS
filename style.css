@@ -63,8 +63,6 @@ h1 {
     border: 2px solid orange;
     border-color: orange; 
 
-}
-
 #htmlSection{
     background-color:rgba(201, 228, 252, 0.6);
     width: 80%;
@@ -78,8 +76,7 @@ h1 {
     margin: auto;
     padding: 20px 20px 20px 20px;
 }
-
-.section-css{
+#cssSection{
     background-color:rgba(201, 228, 252, 0.6);
     width: 80%;
     margin: auto;
