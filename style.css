@@ -1,13 +1,13 @@
 button {
     width: 250px;
     height: 180px;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: bold;
     margin-left:170px; 
     border-radius: 12px;
     padding: 10px 24px;
     text-align: center;
-    margin-top:200px;
+    margin-top:150px;
 }
 
 body {
@@ -19,6 +19,11 @@ h1 {
    text-align: center;
    font-style: normal;
    color :white;
+   padding-top: 100px;
+}
+/*Title of homepage, add id="homeHeader" in HTML */
+#homeHeader {
+    font-size: 60px;
 }
 
 #htmlButton {
